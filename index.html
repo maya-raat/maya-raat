@@ -2,29 +2,44 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MayaRaat - রোমান্টিক ও হট অডিও গল্প</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MayaRaat - Audio Stories</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>স্বাগতম MayaRaat-এ</h1>
-        <p>রোমান্টিক, থ্রিলার ও হট অডিও গল্পের জগতে...</p>
-    </header>
-    <main>
-        <section class="story-list">
-            <h2>গল্পের তালিকা</h2>
-            <ul>
-                <li>একটি গ্রীষ্মের প্রেম</li>
-                <li>চোখে চোখে কথা</li>
-                <li>নিশির জ্বালা</li>
-                <li>রহস্যময় রুম ১৩</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 MayaRaat | All rights reserved.</p>
-    </footer>
+<body class="bg-gray-900 text-white font-sans">
+
+  <header class="bg-black py-6 shadow-lg">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold text-pink-500">MayaRaat</h1>
+      <p class="text-sm text-gray-400 mt-1">রাত জাগা অনুভূতির গল্প</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto mt-12 px-4 text-center">
+    <h2 class="text-xl md:text-2xl font-semibold mb-8 text-white">শ্রেণি নির্বাচন করুন</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <a href="romantic.html" class="bg-pink-600 hover:bg-pink-700 p-8 rounded-2xl shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">রোমান্টিক গল্প</h3>
+        <p class="text-sm mt-2 text-gray-200">ভালোবাসা, অনুভূতি ও আবেগে ভরা গল্প</p>
+      </a>
+      
+      <a href="hot.html" class="bg-red-600 hover:bg-red-700 p-8 rounded-2xl shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">হট ও বোল্ড গল্প</h3>
+        <p class="text-sm mt-2 text-gray-200">উত্তেজনা আর সাহসী প্রেমের গল্প</p>
+      </a>
+      
+      <a href="thriller.html" class="bg-indigo-600 hover:bg-indigo-700 p-8 rounded-2xl shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">থ্রিলার ও সাসপেন্স</h3>
+        <p class="text-sm mt-2 text-gray-200">রহস্য, ক্লিফহ্যাঙ্গার আর টুইস্টে ভরা গল্প</p>
+      </a>
+    </div>
+  </main>
+
+  <footer class="text-center mt-20 py-6 text-sm text-gray-500">
+    © 2025 MayaRaat | Audio Stories by BeraStudio
+  </footer>
+
 </body>
 </html>
